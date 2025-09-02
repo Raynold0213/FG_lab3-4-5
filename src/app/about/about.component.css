@@ -1,0 +1,97 @@
+.about {
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: #fff;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+.about h2 {
+  font-size: 2.8rem;   
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.about h2::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 5px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+.about p {
+  font-size: 1.25rem; 
+  line-height: 1.9;
+}
+
+.about img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  
+}
+
+.about img:hover {
+  transform: scale(1.05);
+}
+
+.skills {
+  background: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.skills h3 {
+  font-size: 2.4rem;   
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+
+.skills h3::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 5px;
+  background: linear-gradient(to right, #141e30, #243b55);
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+.skill-card {
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.skill-card i {
+  color: #00c6ff;
+  font-size: 2.5rem;  
+  transition: color 0.3s ease;
+}
+
+.skill-card h5 {
+  font-size: 1.4rem; 
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.skill-card p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.skill-card:hover i {
+  color: #0072ff;
+}
